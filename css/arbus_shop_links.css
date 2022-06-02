@@ -1,0 +1,92 @@
+.main__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 20px 50px 20px 60px;
+  background-color: #419234;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+}
+.products__button {
+  margin-right: 40px;
+  width: 35px;
+  height: 35px;
+  background: url("../img/arbus_shop/menu.png") no-repeat -1px -1px/35px 35px;
+}
+.products__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.products__item {
+  -webkit-text-decoration: underline solid white 1px;
+          text-decoration: underline solid white 1px;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+.products__item_active {
+  background-color: white;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+.products__item a {
+  display: inline-block;
+  padding: 9px 7px;
+  text-decoration: inherit;
+}
+
+.not-okey {
+  margin-right: 30px;
+  width: 70px;
+  height: 78px;
+  background-color: #419234;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.not-okey img {
+  width: 27px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-45%, -45%);
+          transform: translate(-45%, -45%);
+  -webkit-transform-origin: 28% 28%;
+          transform-origin: 28% 28%;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+.not-okey img:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}

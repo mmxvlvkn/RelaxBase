@@ -1,0 +1,19 @@
+@import "nullstyle.scss";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@import "arbus_shop_header.scss";
+@import "arbus_shop_links.scss";
+@import "arbus_shop_goods.scss";
+@import "arbus_shop_contacts.scss";
+@import "arbus_shop_footer.scss";

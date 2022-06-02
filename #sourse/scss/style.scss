@@ -1,0 +1,21 @@
+@import "nullstyle.scss";
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #343434;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+.wrapper {}
+
+@import "header.scss";
+@import "main_structure.scss";
+@import "navigation.scss";
+@import "index.scss";
+@import "country_hotels.scss";
+@import "hotel.scss";
+@import "sourses.scss";
+@import "footer.scss";

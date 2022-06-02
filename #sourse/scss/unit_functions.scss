@@ -1,0 +1,17 @@
+@function prc($px_one, $px_two) {
+    $result: math.div($px_one, $px_two) * 100%;
+    @return $result;
+}
+
+@function rem($px) {
+    $result: math.div($px, 16) + rem;
+    @return 40rem;
+}
+
+@function em($px) {
+    $result: math.div($px, 16) + em;
+    @return $result;
+}
+
+//@import "unit_functions.scss";
+//@use "sass:math";

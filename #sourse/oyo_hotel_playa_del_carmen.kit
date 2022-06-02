@@ -1,0 +1,80 @@
+<!-- $country: mexico -->
+<!-- $hotel_name: OYO Hotel Playa Del Carmen -->
+<!-- $case_name: OYO_Hotel_Playa_Del_Carmen -->
+<!-- $description_1: Отель OYO Playa Del Carmen удобно расположен в центральном районе города Плайя-дель-Кармен, в 300 м от пляжа Плайя-дель-Кармен и международного автобусного вокзала ADO. Расстояние до морского терминала Плая-дель-Кармен составляет менее 1 км. К услугам гостей этого 2-звездочного отеля ресторан и номера с кондиционером и собственной ванной комнатой. К услугам гостей круглосуточная стойка регистрации и экскурсионное бюро. -->
+<!-- $description_2: Номера отеля оснащены шкафом и телевизором с плоским экраном. -->
+<!-- $description_3: В числе популярных достопримечательностей рядом с отелем OYO Playa Del Carmen пляж, подходящий для людей с ограниченными физическими возможностями, пляжный клуб Kool и торговый центр Quinta Alegria. Расстояние до международного аэропорта Косумель составляет 20 км. -->
+<!-- $description_4: Это любимая часть города Плая-дель-Кармен среди наших гостей согласно независимым отзывам. -->
+<!-- $link: https://www.booking.com/hotel/mx/playa-del-carmen-playa-del-carmen12345678910.ru.html -->
+<!-- $adress: Avenida Benito Juárez 151 manzana 9 lote 6, entre avenidas 10 y 15, 77710 Плая-дель-Кармен, Мексика -->
+<!-- $stars: 2 звезды -->
+<!-- $value: 7,2 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p> 
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

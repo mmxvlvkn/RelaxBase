@@ -1,0 +1,18 @@
+.footer {
+    font-size: 14px;
+    line-height: 1.143;
+    padding: 15px 0;
+    border-top: 2px solid #e9e9e9;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {}
+    &__arbus {}
+    &__arbus-text {}
+    &__arbus-main {
+        text-align: right;
+    }
+}

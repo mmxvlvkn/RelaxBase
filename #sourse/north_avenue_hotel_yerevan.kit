@@ -1,0 +1,82 @@
+<!-- $country: armenia -->
+<!-- $hotel_name: North Avenue Hotel Yerevan -->
+<!-- $case_name: North_Avenue_Hotel_Yerevan -->
+<!-- $description_1: Отель North Avenue расположен в центре Еревана, рядом с Армянским академическим театром оперы и балета им. А. Спендиарова и площадью Республики. К услугам гостей бесплатный Wi-Fi. Стойка регистрации работает круглосуточно. Номера оборудованы кондиционером. -->
+<!-- $description_2: Отель North Avenue находится в самом центре города. От него легко добраться до главных достопримечательностей Еревана, в том числе Музея истории Армении, расстояние до которого составляет 180 метров. Расстояние до площади Свободы и Армянского академического театра оперы и балета им. А. Спендиарова составляет 500 метров. -->
+<!-- $description_3: Все элегантно оформленные номера оснащены кондиционером, электрическим чайником, мини-баром и телевизором с плоским экраном и кабельными каналами. Ванная комната укомплектована феном, тапочками и бесплатными туалетно-косметическими принадлежностями. В числе удобств номеров также мини-бар. -->
+<!-- $description_4: В ресторане Bazaar на территории отеля подают блюда местной и континентальной кухни. Коктейли можно заказать в круглосуточно работающем баре. Доставка еды и напитков в номера осуществляется по запросу. -->
+<!-- $description_5: Международный аэропорт Звартноц находится в 12 км от отеля North Avenue. -->
+<!-- $link: https://www.booking.com/hotel/am/north.ru.html -->
+<!-- $adress: 10/1 North Avenue, 0015 Ереван, Армения -->
+<!-- $stars: 4 звезды -->
+<!-- $value: 9,0 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>                                            
+                                            <p class="hotel__description-item"><!-- $description_5 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

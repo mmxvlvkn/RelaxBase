@@ -1,0 +1,16 @@
+.main {
+    background-color: #f7f7f7;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 0.27fr 1fr;
+        column-gap: 2.46%;
+        padding: 3.25% 0 2.44%;
+
+        @media (max-width: 56.25em) {
+            display: block;
+        }
+    }
+
+    &__main-content {}
+}

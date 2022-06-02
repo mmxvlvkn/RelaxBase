@@ -1,0 +1,43 @@
+.sourses__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sourses__links {
+  padding: 20px 15px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 2px #d3d3d3;
+          box-shadow: 0 0 2px #d3d3d3;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 72px 20px 72px;
+  -ms-grid-columns: 256px 70px 256px 70px 256px;
+      grid-template: repeat(2, 72px)/repeat(3, 256px);
+  gap: 20px 70px;
+}
+.sourses__link {
+  display: block;
+  width: 256px;
+  height: 72px;
+}
+.sourses__link:hover {
+  -webkit-box-shadow: 0 0 7px #d4d4d4;
+          box-shadow: 0 0 7px #d4d4d4;
+}
+.sourses__booking {
+  background-image: url("../img/sourses/booking.jpg");
+}
+.sourses__avito {
+  background-image: url("../img/sourses/avito.jpg");
+}
+.sourses__momondo {
+  background-image: url("../img/sourses/momondo.jpg");
+}
+.sourses__cian {
+  background-image: url("../img/sourses/cian.jpg");
+}
+.sourses__seekweb {
+  background-image: url("../img/sourses/seekweb.jpg");
+}
+.sourses__domclick {
+  background-image: url("../img/sourses/domclick.jpg");
+}

@@ -1,0 +1,81 @@
+<!-- $country: england -->
+<!-- $hotel_name: The Landmark London -->
+<!-- $case_name: The_Landmark_London -->
+<!-- $description_1: Этот отель класса делюкс расположен в центре фешенебельного лондонского района Мэрилебон. К услугам гостей потрясающий 8-этажный атриум со стеклянной крышей и высокими пальмами, превосходный ресторан, роскошные номера, крытый бассейн и спа-центр. -->
+<!-- $description_2: Просторные номера с кондиционером декорированы превосходным текстилем и обставлены элегантной мебелью. В числе удобств — телевизор с плоским экраном и спутниковыми каналами, бесплатный Wi-Fi и отделанная мрамором ванная комната с дизайнерскими туалетно-косметическими принадлежностями. -->
+<!-- $description_3: В оздоровительном клубе и спа-центре можно заказать расслабляющие и терапевтические процедуры, включая массаж, рефлексотерапию и массаж горячими камнями. В распоряжении гостей также паровая баня, сауна, комната релаксации и полностью оборудованный тренажерный зал. -->
+<!-- $description_4: В ресторане The Winter Garden, расположенном в самом сердце атриума, подают изысканные блюда современной кухни. В изысканном баре-ресторане Grand Central можно отведать блюда европейской кухни. Желающие могут также посетить сад с террасой и бар Mirror или воспользоваться бесплатным спа-центром. -->
+<!-- $description_5: Пешая прогулка до Риджентс-парка и стадиона для крикета «Лордс» занимает менее 10 минут. В 50 метрах расположена станция метро Marylebone, от которой можно легко добраться до всех достопримечательностей Лондона. -->
+<!-- $link: https://www.booking.com/hotel/gb/landmarklondonld.ru.html -->
+<!-- $adress: 222 Marylebone Road, Вестминстер, Лондон, NW1 6JQ, Великобритания -->
+<!-- $stars: 5 звезд -->
+<!-- $value: 9,0 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p> 
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

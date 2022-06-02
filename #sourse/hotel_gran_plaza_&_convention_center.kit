@@ -1,0 +1,80 @@
+<!-- $country: mexico -->
+<!-- $hotel_name: Hotel Gran Plaza & Convention Center -->
+<!-- $case_name: Hotel_Gran_Plaza_&_Convention_Center -->
+<!-- $description_1: В отеле имеется открытый плавательный бассейн, окруженный пальмами. Отель находится примерно в 10 минутах езды от центра города Гуанахуато. К услугам гостей бесплатный Wi-Fi и бесплатная парковка. -->
+<!-- $description_2: Все номера отеля и конференц-центра Gran Plaza оснащены полами с ковровым покрытием и балконом, с которого открывается вид на бассейн и сад. В каждом номере проведено кабельное телевидение и установлен рабочий стол. Собственная ванная комната укомплектована ванной и феном. -->
+<!-- $description_3: На территории отеля Gran Plaza работают кафе-ресторан и бар, а также небольшой сувенирный магазин, банкомат и конференц-центр. -->
+<!-- $description_4: С понедельника по субботу, с 8:00 до 16:00, предоставляется бесплатный трансфер от/до центра города. В отеле организуют также трансфер до международного аэропорта Гуанахуато, который расположен примерно в 25 минутах езды. -->
+<!-- $link: https://www.booking.com/hotel/mx/gran-plaza-and-convention-center.ru.html -->
+<!-- $adress: Blvd Euquerio Guerrero KM 6 Colonia Burocratas, 36250 Гуанахуато, Мексика -->
+<!-- $stars: 4 звезды -->
+<!-- $value: 8,4 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p> 
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

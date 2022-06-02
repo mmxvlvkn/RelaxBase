@@ -1,0 +1,81 @@
+<!-- $country: england -->
+<!-- $hotel_name: Cleatham Hall -->
+<!-- $case_name: Cleatham_Hall -->
+<!-- $description_1: Отель типа «постель и завтрак» Cleatham Hall расположен в городе Мантон. К услугам гостей сад, терраса, общий лаундж и бар. К услугам гостей бесплатный Wi-Fi и частная парковка на территории. -->
+<!-- $description_2: Все номера оснащены принадлежностями для чая/кофе, собственной ванной комнатой и шкафом для одежды. Фрукты, шоколад и шампанское предоставляются по запросу. -->
+<!-- $description_3: По утрам для гостей сервируют полный английский завтрак, приготовленный из местных продуктов, а по утрам сервируют континентальный завтрак. В отеле регулярно проводятся мероприятия. -->
+<!-- $description_4: Сканторп находится всего в 13 км от отеля. Расстояние до ближайшей развязки на автомагистрали M180 составляет 8 км, до автомагистралей M62 и M18 — 48 км, а до города Донкастер — 36 км. Расстояние до аэропорта Хамберсайд составляет 19 км. -->
+<!-- $link: https://www.booking.com/hotel/gb/cleatham-hall.ru.html -->
+<!-- $adress: Cleatham Hall Manton, Manton, DN21 4JS, Великобритания -->
+<!-- $stars: 5 звезд -->
+<!-- $value: 9,6 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p> 
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

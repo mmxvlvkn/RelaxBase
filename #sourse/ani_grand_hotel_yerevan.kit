@@ -1,0 +1,84 @@
+<!-- $country: armenia -->
+<!-- $hotel_name: Ani Grand Hotel Yerevan -->
+<!-- $case_name:Ani_Grand_Hotel_Yerevan-->
+<!-- $description_1: Гранд-отель Ani Yerevan расположен в Ереване, менее чем в 1 км от площади Республики и в 14 минутах ходьбы от Армянского академического театра оперы и балета. К услугам гостей ресторан, фитнес-центр, бар и бесплатный Wi-Fi. Отель находится в 2,1 км от Ереванского государственного университета, в 2,3 км от музея Сергея Параджанова и в 2,9 км от Ереванского коньячного завода. В отеле есть крытый бассейн, сауна и круглосуточная стойка регистрации. -->
+<!-- $description_2: В номерах имеется письменный стол, телевизор с плоским экраном, собственная ванная комната, постельное белье и полотенца. В каждом номере установлен сейф. -->
+<!-- $description_3: По утрам в гранд-отеле Ani Yerevan сервируют завтрак «шведский стол». -->
+<!-- $description_4: Рядом находятся такие популярные достопримечательности, как Музей истории Армении, собор Святого Григория Просветителя и Голубая мечеть. -->
+<!-- $description_5: Это любимая часть города Ереван среди наших гостей согласно независимым отзывам. -->
+<!-- $link: https://www.booking.com/hotel/am/ani-grand.ru.html -->
+<!-- $adress: 65 Hanrapetutyan Street, 0010 Ереван, Армения -->
+<!-- $stars: 4 звезды -->
+<!-- $value: 8,9 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>                                            
+                                            <p class="hotel__description-item"><!-- $description_5 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        <script src="js/hotel.js"></script>
+        <!-- @import "js.kit" -->
+        
+    </body>
+</html>

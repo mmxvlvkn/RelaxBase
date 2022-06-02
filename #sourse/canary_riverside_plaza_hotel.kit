@@ -1,0 +1,85 @@
+<!-- $country: england -->
+<!-- $hotel_name: Canary Riverside Plaza Hotel -->
+<!-- $case_name: Canary_Riverside_Plaza_Hotel -->
+<!-- $description_1: Отель Canary Riverside Plaza находится в новом оживленном районе Лондона. Из окон открывается вид на город и реку Темза. К услугам гостей элегантные номера и бесплатный Wi-Fi. До магазинов и небоскребов делового района Кэнэри-Уорф всего несколько минут ходьбы. Гости могут бесплатно посещать оздоровительный клуб Virgin Active, на 3 этажах которого расположены фитнес-центр, сауны, паровые бани, бассейны с гидротерапией и 20-метровый пейзажный бассейн. -->
+<!-- $description_2: Отель Canary Riverside Plaza построен на исторической набережной Вест-Индия-Ки, которая была оживленным центром британской торговли специями сотни лет назад. В 10 минутах ходьбы находится станция метро, что позволяет добраться до самых популярных достопримечательностей города. В 5 минутах ходьбы от отеля проходит линия Доклендского легкого метро. -->
+<!-- $description_3: За 2 минуты можно дойти до пирса Кэнэри-Уорф, где останавливаются речные трамваи компании Thames Clippers, следующие как до центра Лондона и района Вест-Энд, так и до Гринвича. -->
+<!-- $description_4: Гостям предоставляются просторные и современные номера с телевизором с плоским экраном и собственной ванной комнатой с феном и бесплатными туалетно-косметическими принадлежностями. Осуществляется круглосуточная доставка еды и напитков в номер. -->
+<!-- $description_5: Гости могут выбрать полный английский, континентальный или энергетический завтрак, а также сбалансированные блюда, полезные для здоровья. -->
+<!-- $link: https://www.booking.com/hotel/gb/canary-riverside-plaza.ru.html -->
+<!-- $adress: 46 Westferry Circus , Тауэр-Хэмлетс, Лондон, E14 8RS, Великобритания -->
+<!-- $stars: 5 звезд -->
+<!-- $value: 8,6 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>                                            
+                                            <p class="hotel__description-item"><!-- $description_5 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        
+        <script src="js/hotel.js"></script>
+        <!-- @import "js.kit" -->
+        
+    </body>
+</html>

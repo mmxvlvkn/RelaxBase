@@ -1,0 +1,59 @@
+.navigation {
+    padding: 20px;
+    padding-right: 25px;
+    background-color: white;
+    box-shadow: 0 0 2px #d3d3d3;
+
+    @media (max-width: 56.25em) {
+        margin-bottom: 3.25%;
+    }
+    
+    &__list {
+        font-size: 1.5rem;
+        line-height: 1.36;
+        letter-spacing: 0.0588em;
+
+        @media (max-width: 56.25em) {
+            display: flex;
+            flex-grow: 1;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 65.625em) {
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: 61.875em) {
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: 58.75em) {
+            font-size: 1.2rem;
+        }
+
+        @media(min-width: 56.26em) {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &__item {
+        margin-bottom: 0.167em;
+        min-width: 182px;
+        background: url("../img/icons/base.png") no-repeat;
+    }
+
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+
+    &__link {
+        padding-left: 30px;
+        transition: padding-left 180ms ease 0s;
+    }
+
+    &__link:hover {
+        padding-left: 35px;
+    }
+}

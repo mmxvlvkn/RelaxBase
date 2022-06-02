@@ -1,0 +1,80 @@
+<!-- $country: mexico -->
+<!-- $hotel_name: Villa del Palmar Beach Resort & Spa Puerto Vallarta -->
+<!-- $case_name: Villa_del_Palmar_Beach_Resort_&_Spa_Puerto_Vallarta -->
+<!-- $description_1: В этом курортном отеле класса люкс, расположенном в Пуэрто-Вальярте, на пляже в заливе Бандерас, имеется спа-салон с полным комплексом услуг. Гостям предоставляются люксы с собственной кухней и многоуровневый бассейн в виде лагуны. -->
+<!-- $description_2: Люксы курортного спа-отеля Villa del Palmar Beach Puerto Vallarta оснащены плитой, обеденной зоной, отделанной мрамором ванной комнатой и меблированным балконом или террасой. -->
+<!-- $description_3: При курортном спа-отеле Villa del Palmar Beach работает ресторан La Cucina, где сервируют завтрак "шведский стол" и подают блюда интернациональной и средиземноморской кухни. В спорт-баре Los Equipales гости смогут заказать коктейли. -->
+<!-- $description_4: В курортном спа-отеле Villa del Palmar Beach Puerto Vallarta каждый вечер устраивают тематические шоу. В числе других развлечений – пляжный волейбол, теннис и аквааэробика. -->
+<!-- $link: https://www.booking.com/hotel/mx/villa-del-palmar-puerto-vallarta.ru.html -->
+<!-- $adress: Boulevard Francisco Medina Ascencio KM 3 Zona Hotelera Norte, 48333 Пуэрто-Вальярта, Мексика -->
+<!-- $stars: 4 звезды -->
+<!-- $value: 8,2 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+.countries {
+    &__country-wrapper {
+       margin-bottom: 3.26%;
+    }
+}
+
+.country {
+    &__title {
+        text-align: center;
+        margin-bottom: 2.17%;
+    }
+
+    &__busness {}
+
+    &__subtitle {
+        text-align: center;
+        margin-bottom: 2.17%;
+    }
+
+    &__images {
+        margin-bottom: 2.17%;
+    }
+
+    &__economy {}
+}
+
+.images {
+    padding: 1.63%;
+    padding-bottom: 2.39%;
+    background-color: white;
+    box-shadow: 0 0 2px #d3d3d3;
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(3, auto);
+    gap: 0.86% 0.65%;
+
+    @media(max-width: 48em) {
+        padding-bottom: 3.2%;
+        grid-template: repeat(2, auto) / repeat(2, auto);
+        gap: 0.28% 0.65%;
+    }
+
+    &__image {
+        position: relative;
+        padding-bottom: 75%;
+
+      &_big {
+          grid-row: span 2;
+          grid-column: span 2;
+      } 
+    } 
+
+    &__image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.title {
+    font-size: 1.875rem;
+    letter-spacing: 0.0667em;
+}
+
+.subtitle {
+    font-size: 1.5625rem;
+    letter-spacing: 0.08em;
+    color: #919191;
+}

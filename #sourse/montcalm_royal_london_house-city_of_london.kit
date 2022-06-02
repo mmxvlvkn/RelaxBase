@@ -1,0 +1,81 @@
+<!-- $country: england -->
+<!-- $hotel_name: Montcalm Royal London House-City of London -->
+<!-- $case_name: Montcalm_Royal_London_House-City_of_London -->
+<!-- $description_1: Отель Montcalm Royal London House-City of London находится в самом центре Лондона рядом с площадью Финсбери-парк. Прогулка до улицы Ливерпуль-стрит займет всего несколько минут. К услугам гостей бесплатный Wi-Fi, спа-салон и бар на крыше с живописным видом на город. -->
+<!-- $description_2: Во всех номерах и люксах есть кондиционер, док-станция для iPod, мини-бар и кофемашина Nespresso. Можно посмотреть телевизор с технологией Smart TV, 55-дюймовым экраном и международными каналами. Предоставляется выбор подушек. -->
+<!-- $description_3: В отеле Montcalm Royal London House-City of London работают 2 бара и 2 ресторана, в число которых входят бар на крыше, пивной ресторан и кофейня. Гости могут воспользоваться круглосуточными услугами доставки еды и напитков в номер, а также услугами консьержа. -->
+<!-- $description_4: Отель расположен в 10 минутах ходьбы от здания Барбикан-Центр и менее чем в 15 минутах от района Шордич. До других районов Лондона можно легко добраться на общественном транспорте. Расстояние до ближайшего аэропорта (Лондон-Сити) составляет 12 км. -->
+<!-- $link: https://www.booking.com/hotel/gb/the-montcalm-royal-london-house.ru.html -->
+<!-- $adress: 22-25 Finsbury Square, City , Ислингтон, Лондон, EC2A 1DX, Великобритания -->
+<!-- $stars: 5 звезд -->
+<!-- $value: 8,6 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

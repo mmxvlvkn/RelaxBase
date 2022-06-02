@@ -1,0 +1,80 @@
+<!-- $country: mexico -->
+<!-- $hotel_name: Hotel Clasico Colonial -->
+<!-- $case_name: Hotel_Clasico_Colonial -->
+<!-- $description_1: Отель Clasico Colonial расположен в центре города Комитан, всего в 130 метрах от кафедрального собора и центрального парка. К услугам гостей номера с бесплатным WiFi, телевизором с кабельными каналами и большими окнами. -->
+<!-- $description_2: В ярко освещенном кафе-ресторане круглосуточно подают традиционные блюда региональной кухни. Продовольственный рынок на площади 1 мая находится всего в 30 метрах. Кроме того, рядом с отелем расположено несколько ресторанов. -->
+<!-- $description_3: Расстояние до автобусного вокзала Комитана составляет 1 км. Предоставляются услуги такси. На территории отеля Clasico Colonial имеется бесплатная парковка. -->
+<!-- $description_4: Поездка от отеля Clasico Colonial до руин майя в Тенам-Пуэнте займет около 30 минут, а до водопада Эль-Чифлон и озер Монтебелло — 45 минут. Город Сан-Кристобаль-де-лас-Касас находится в часе езды. -->
+<!-- $link: https://www.booking.com/hotel/mx/clasico-colonial.ru.html -->
+<!-- $adress: 1ra Calle Norte 13 Colonia Centro, 30000 Комитан-де-Домингес, Мексика -->
+<!-- $stars: 2 звезды -->
+<!-- $value: 7,9 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p> 
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

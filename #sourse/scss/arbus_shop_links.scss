@@ -1,0 +1,73 @@
+.main {
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__goodses {}
+}
+.products {
+    display: flex;
+    flex-grow: 1;
+    padding: 1.25rem 3.125rem 1.25rem 3.75rem;
+    background-color: #419234;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    max-width: 31.25rem;
+
+    &__button {
+        margin-right: 2.5rem;
+        width: 2.1875rem;
+        height: 2.1875rem;
+        background: url("../img/arbus_shop/menu.png") no-repeat  -1px -1px / 2.1875rem 2.1875rem;
+    }
+    &__list {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 1.25rem;
+    }
+    &__item {
+        text-decoration: underline solid white 1px;
+
+        &_active {
+            background-color: white;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+            font-weight: 300;
+            color: black;
+            text-decoration: none;
+        }
+    }
+    &__item a {
+        display: inline-block;
+        padding: 0.5625rem 0.4375rem;
+        text-decoration: inherit;
+    }
+}
+.not-okey {
+    margin-right: 1.875rem;
+    width: 4.375rem;
+    height: 4.875rem;
+    background-color: #419234;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    //transition-duration: 500ms;
+
+    & img {
+        width: 1.6875rem;
+        height: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -45%);
+        transform-origin: 28% 28%;
+        transition-duration: 500ms;
+    }
+
+    &:hover {
+        & img {
+            transform: rotate(180deg);
+        }
+    }
+}

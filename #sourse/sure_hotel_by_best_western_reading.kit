@@ -1,0 +1,85 @@
+<!-- $country: england -->
+<!-- $hotel_name: Sure Hotel by Best Western Reading -->
+<!-- $case_name: Sure_Hotel_by_Best_Western_Reading -->
+<!-- $description_1: Отель Sure by Best Western Reading находится в 1,6 км от центра города Рединг и предлагает бесплатный тренажерный зал, бесплатный Wi-Fi и бесплатную парковку на территории. Университет Рединга находится в нескольких минутах ходьбы от отеля. -->
+<!-- $description_2: Отель Sure был построен в 1890-х годах. Его номера с ванными комнатами оснащены спутниковым телевидением. Во всех номерах есть холодильник и микроволновая печь, а в некоторых — мини-кухня. -->
+<!-- $description_3: В баре подают закуски и легкие блюда, а в гостевом лаундже установлен широкоэкранный телевизор. Ежедневно в зале для завтраков сервируется сытный континентальный и полный английский завтрак. -->
+<!-- $description_4: Вы можете заказать еду или принести ее с собой и отведать в лаундже. -->
+<!-- $description_5: Отель Sure by Best Western Reading находится всего в 1,6 км от торгового центра Oracle и торгового центра Broad Street. Железнодорожный вокзал Рединга находится чуть более чем в километре, откуда можно добраться до аэропортов Хитроу и Гатвик. Доехать до автомагистрали M4 через съезд 11 можно за 9 минут. -->
+<!-- $description_6: Местные достопримечательности включают Виндзорский замок, Лего-Ленд и стадион Рединг ФК. Королевская больница Беркшира находится всего в 1,1 км. -->
+<!-- $link: https://www.booking.com/hotel/gb/readingcomfortinn.en-gb.html -->
+<!-- $adress: 39 Christchurch Road, Reading, RG2 7AN, United Kingdom -->
+<!-- $stars: 2 звезды -->
+<!-- $value: 7,5 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>                                            
+                                            <p class="hotel__description-item"><!-- $description_5 --></p>
+                                            <p class="hotel__description-item"><!-- $description_6 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        
+        <script src="js/hotel.js"></script>
+    </body>
+</html>

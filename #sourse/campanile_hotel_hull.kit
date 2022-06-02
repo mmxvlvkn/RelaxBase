@@ -1,0 +1,83 @@
+<!-- $country: england -->
+<!-- $hotel_name: Campanile Hotel Hull -->
+<!-- $case_name: Campanile_Hotel_Hull -->
+<!-- $description_1: Отель Campanile Hull с элегантными номерами в стиле шале и рестораном европейской кухни находится всего в 2,4 км от океанариума Deep. Отель расположен в центре города. На территории имеется бесплатная парковка. -->
+<!-- $description_2: В современных номерах с отдельными выходами на улицу есть ванная комната с принадлежностями для умывания. В номерах также есть рабочий стол и удобный гостиный уголок. В некоторых номерах есть выход на общий небольшой балкон. Wi-Fi предоставляется за дополнительную плату. -->
+<!-- $description_3: В ресторане на территории подают блюда традиционной и континентальной кухни, а также ежедневные сезонные фирменные блюда. Впечатляющий завтрак "шведский стол" включает отличные блюда, вкусную выпечку и свежие фрукты. Также предлагается легкий обед по меню. -->
+<!-- $description_4: Отель Campanile Hull, окруженный красивым садом, находится в нескольких минутах ходьбы от оживленного Старого города Халла с множеством пабов, ресторанов и баров. Пристань для яхт Халл находится чуть более чем в километре, а популярный торговый центр Princes Quay — в 15 минутах ходьбы. -->
+<!-- $link: https://www.booking.com/hotel/gb/campanilehull.en-gb.html -->
+<!-- $adress: Beverley Rd, Freetown Way, Hull, HU2 9AN, United Kingdom -->
+<!-- $stars: 2 звезды -->
+<!-- $value: 7,2 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons/base.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><!-- $hotel_name -->, ОтдыхBase</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- @import "header.kit" -->
+
+            <main class="main">
+                <div class="content">
+                    <div class="main__wrapper">
+                        <!-- @import "navigation.kit"-->
+
+                        <div class="main__main-content">
+                            <section class="hotel">
+                                <h2 class="hotel__title title"><!-- $hotel_name --></h2>
+                                <div class="hotel__images hotel-images">
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/1.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/2.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/3.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/4.jpg" alt=""></div>
+                                    <div class="hotel-images__image hotel-images__image_big"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/5.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/6.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/7.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/8.jpg" alt=""></div>
+                                    <div class="hotel-images__image"><img src="img/hotels/<!-- $country -->/<!-- $case_name -->/9.jpg" alt=""></div>
+                                </div>
+                                <div class="hotel__about">
+                                    <div class="hotel__about-body">
+                                        <div class="hotel__description">
+                                            <p class="hotel__description-item"><!-- $description_1 --></p>
+                                            <p class="hotel__description-item"><!-- $description_2 --></p>                                          
+                                            <p class="hotel__description-item"><!-- $description_3 --></p>                                           
+                                            <p class="hotel__description-item"><!-- $description_4 --></p>
+                                            <a href="<!-- $link -->" target="_blank" class="hotel__button">Забронировать на Booking.com</a>
+                                        </div>
+                                        <div class="hotel__info">
+                                            <p class="hotel__adress">
+                                                <!-- $adress -->
+                                            </p>
+                                            <p class="hotel__stars">
+                                                <!-- $stars -->
+                                            </p>
+                                            <div class="hotel__review">
+                                                <p class="hotel__review-title">Средняя оценка:</p>
+                                                <div class="hotel__review-value"><!-- $value --></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- @import "sourses.kit" -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @import "footer.kit" -->
+            
+        </div>
+        
+        <script src="js/hotel.js"></script>
+        <!-- @import "js.kit" -->
+        
+    </body>
+</html>
