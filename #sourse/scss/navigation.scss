@@ -6,6 +6,8 @@
 
     @media (max-width: 56.25em) {
         margin-bottom: 3.25%;
+        display: flex;
+        justify-content: center;
     }
     
     &__list {
@@ -14,8 +16,10 @@
         letter-spacing: 0.0588em;
 
         @media (max-width: 56.25em) {
+            //TODO Надо сделать чтобы принимал ширину содержимого.
+            border: 1px solid lawngreen;
+            flex-shrink: 1;
             display: flex;
-            flex-grow: 1;
             flex-wrap: wrap;
         }
 
@@ -40,8 +44,12 @@
 
     &__item {
         margin-bottom: 0.167em;
-        min-width: 182px;
+        //min-width: 182px;
         background: url("../img/icons/base.png") no-repeat;
+
+        @media (max-width: 56.25em) {
+            margin-right: 15px;
+        }
     }
 
     &__item:last-child {
