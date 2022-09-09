@@ -270,7 +270,6 @@ body._lock {
 }
 @media (max-width: 56.25em) {
   .navigation__list {
-    border: 1px solid lawngreen;
     -ms-flex-negative: 1;
         flex-shrink: 1;
     display: -webkit-box;
@@ -744,6 +743,6 @@ body._lock {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.footer__arbus-main {
+.footer__email {
   text-align: right;
 }
